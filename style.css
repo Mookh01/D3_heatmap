@@ -1,0 +1,41 @@
+
+html {
+  background: lightgreen;
+}
+
+.xAx {
+  fill: black;
+  font-size: .8em;
+  font-family: 'Fjalla One';
+  margin: 10px 10px 10px 0px;
+  padding: 5px 5px 5px 5px;
+}
+
+
+.title {
+  fill: black;
+  font-size: 2em;
+  font-family: 'Fjalla One';
+}
+
+#tooltip {
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+  background-color: rgba(247,245,99,.98);
+  box-shadow: 0px 10px 20px rgba(10, 2, 2, 2);
+  border-radius: 10px;
+  border-width: thick;
+  pointer-events: none;
+}
+
+#tooltip.hidden {
+  display: none;
+}
+
+#tooltip p {
+  margin: 0;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
